@@ -1,0 +1,164 @@
+*{
+  box-sizing: border-box;
+}
+
+
+body{
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+} 
+.header{
+  height: 900px;
+  width: 100%;
+  background-color: #ccdef0;
+  background-image: radial-gradient(circle 675px at center, #ffffff 0%, #ccdef0 100%);
+
+}
+
+.container{
+  width:1170px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.nav-wrapper{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo{
+  /* Style for "Тропически" */
+/* color: #5abb33; */
+font-size: 28px;
+font-weight: 900;
+line-height: 1;
+/* Text style for "Сад" */
+color: rgb(43, 43, 128);
+padding: 3rem;
+
+}
+
+.logo span{
+  color:rgb(6, 179, 6);
+}
+
+.nav-ul{
+  display: flex;
+  margin: 0;
+  padding:0;
+  list-style: none;
+}
+.nav-li{
+  margin-right: 50px;
+
+}
+/* .nav-li:last-child{
+  margin-right: 0;
+
+} */
+
+.nav-li-link{
+  text-decoration: none;
+}
+.nav-li-link:hover{
+  text-decoration: blink;
+  color: rgb(223, 223, 17);
+}
+
+.header-content{
+  display: flex;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.header-all-text{
+  padding-top: 90px;
+  width: 494px;
+
+}
+
+.header-title{
+  /* Style for "Натуральны" */
+display: flex;
+color: #000000;
+font-size: 42px;
+font-weight: 500px;
+line-height: 1;
+
+}
+
+.header-text{
+
+  /* Style for "Cок являет" */
+
+
+font-size: 20px;
+font-weight: 500; 
+line-height: 1.7;
+  
+}
+
+.header-button{
+display: inline-block;
+height: 65px;
+border-radius: 66px;
+padding-left: 35px;
+padding-right: 35px;
+background-color: #fadb60;
+background-image: linear-gradient(to top, #ffcc00 0%, #fadb60 100%);
+margin-top: 2rem;
+margin-left: 5rem;
+
+/* Style for "Получить з" */
+
+  color: #000000;
+  font-family: Montserrat;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 62px;
+  text-decoration: none;
+    
+}
+
+.header-button:hover{
+  color: blue;
+}
+
+.header-image{
+padding-top: 30px;
+padding-bottom: 30px;
+padding-left: 50px;
+}
+
+.header-social{
+font-size: 27px;
+color:#3d3e3f;
+}
+
+
+.header-social-item{
+  color:#3d3e3f;
+  margin-right: 30px;
+  margin-top: 100px;
+}
+
+.header-social-item:last-child{
+  margin-right: 0 ;
+}
+
+
+.header-social-item:hover{
+opacity: 0.7;  
+}
+
+
+.footer{
+  width: 100%;
+  text-align: center;
+  align-items: center;
+  background-color: #232323;
+}
